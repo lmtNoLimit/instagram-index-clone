@@ -12,12 +12,13 @@ footer {
 .contents {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
 }
 .contents li {
     font-size: 12px;
     padding-right: 10px;
     text-transform: uppercase;
+    flex-flow: row wrap;
+
 }
 .contents a {
     text-decoration: none;
@@ -26,4 +27,14 @@ footer {
 .nav-container p {
     font-size: 12px;
     color: #afafaf;
+}
+@media screen and (max-width: 600px) {
+    .contents {
+        width: 400px;
+        flex-wrap: wrap;
+    }
+    .nav-container {
+        width: 500px;
+        flex-wrap: wrap;
+    }
 }
