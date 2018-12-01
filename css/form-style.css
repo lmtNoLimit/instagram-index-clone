@@ -1,5 +1,4 @@
-.container {
-    font-family: Arial, Helvetica, sans-serif;
+.form-container {
     width: 350px;
     border: 1px solid #ddd;
     display: flex;
@@ -7,7 +6,7 @@
     flex-flow: column;
 }
 
-.container .description {
+.form-container .description {
     max-width: 270px;
     text-align: center;
     color: #b4b4b4;
@@ -18,7 +17,7 @@
     border: transparent;
     background-color: #2878f1;
     border-radius: 5px;
-    color: #fff;
+    color: #fff !important;
     font-size: 17px;
     margin-top: 0;
 }
@@ -75,4 +74,32 @@ hr {
 }
 .license span {
     font-weight: normal;
+}
+.login-box {
+    margin-top: 10px;    
+    text-align: center;
+    padding-top: 10px;
+    width: 350px;
+    height: 60px;
+    border: 1px solid #ddd;
+}
+.login-box a {
+    text-decoration: none;
+    color: #2878f1;
+    font-size: 14px;
+}
+.get-app {
+    width: 350px;
+}
+.get-app p {
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+}
+.store-container {
+    display: flex;
+    justify-content: center;
+}
+.store-container img {
+    padding: 0 5px;
 }
